@@ -88,9 +88,12 @@ class SpatioTemporalDataset(Dataset):
         self.flag = flag
 
         # Data Source Settings
-        self.data_path = config.get("data_conf").get("data_path", None)
-        if self.data_path is None:
+        raw_path = config.get("data_conf", {}).get("data_path", None)
+        if raw_path is None:
             raise ValueError("No data path provided.")
+        self.data_path = os.path.abspath(os.path.expanduser(raw_path))
+        if not os.path.exists(self.data_path):
+            raise FileNotFoundError(f"Resolved path does not exist: {self.data_path}")
         self.loader = LocalDataLoader(self.data_path)
         self.file_name = config.get("data_conf").get("file_name", None)
         self.adj_file_name = config.get("data_conf").get("adj_file_name", None)

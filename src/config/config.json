@@ -53,7 +53,7 @@
   "save_model": false,
    "data_conf": {
      "data": "METRLA",
-     "data_path": "/home/vicky/repos/research/spatio-temp-parroting/data/METR-LA",
+     "data_path": "./data/METR-LA",
      "file_name": "METR-LA.h5",
      "adj_file_name": "adj_METR-LA.npy",
      "data_type": "hdf5",
