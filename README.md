@@ -61,10 +61,11 @@ uv run python -m src.run \
 
 This repository supports two installation workflows: **uv** or **conda**.
 
-⚠️ **Reproducibility note**  
+**⚠️ Reproducibility note**
+
 All experiments reported in the paper were conducted using **Python 3.10**, **PyTorch 2.4**, and **CUDA 12.4**.
 For exact reproduction of the results, we strongly recommend using the **Conda environment** described below.
-The parameter choices can be found below in Table xyz. You can edit src/config/config.json.
+The parameter choices can be found below in the Table. You can edit src/config/config.json.
 ---
 
 ### Prerequisites
