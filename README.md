@@ -13,8 +13,9 @@ attention scores depend on the sequence length, and that temporal atten-
 tion matrices suffer a **diagonal attention sink**. We suggest **regularization**
 methods, and experimentally demonstrate their effectiveness.
 
-[![DOI](https://img.shields.io/badge/DOI-10.xxxx%2Fxxxxx-blue)](https://doi.org/10.48550/arXiv.2602.10956)
+[![DOI](https://img.shields.io/badge/DOI-10.48550%2FarXiv.2602.10956-blue)](https://doi.org/10.48550/arXiv.2602.10956)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 
 This repository accompanies the publication at *ESANN 2026*:
 > Citation will be added after the conference took place.
