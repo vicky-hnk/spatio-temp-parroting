@@ -1,14 +1,26 @@
-# <Project Title>
+# Stochastic Parroting in Temporal Attention – Regulating the Diagonal Sink
 
-[![DOI](https://img.shields.io/badge/DOI-10.xxxx%2Fxxxxx-blue)](https://doi.org/10.xxxx/xxxxx)
+Spatio-temporal models analyze spatial structures and tempo-
+ral dynamics, which makes them prone to information degeneration among
+space and time. 
+Prior literature has demonstrated that over-squashing in
+causal attention or temporal convolutions creates a bias on the first tokens.
+
+To analyze whether such a bias is present in temporal attention mecha-
+nisms, we derive **sensitivity bounds on the expected value of the Jacobian
+of a temporal attention layer**. We theoretically show how off-diagonal
+attention scores depend on the sequence length, and that temporal atten-
+tion matrices suffer a **diagonal attention sink**. We suggest **regularization**
+methods, and experimentally demonstrate their effectiveness.
+
+[![DOI](https://img.shields.io/badge/DOI-10.xxxx%2Fxxxxx-blue)](https://doi.org/10.48550/arXiv.2602.10956)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-**Stochastic Parroting in Temporal Attention – Regulating the Diagonal Sink**  
 This repository accompanies the publication at *ESANN 2026*:
 > Citation will be added after the conference took place.
 
-An extended version can be found on arXive:
-> Link will be added soon.
+An extended version can be found on arXiv:
+> https://arxiv.org/abs/2602.10956.
 ---
 
 
