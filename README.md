@@ -90,14 +90,15 @@ CPU-only execution is possible but may lead to longer runtimes and has not been 
 
 ---
 
-### Option A: uv (recommended for general use)
+### Option A: uv (recommended)
 
-1. Set-up using `uv`:
+Set-up using `uv`:
 ```bash
 uv sync
 uv run python -c "import torch; import torch_scatter; print(f'Success! Torch: {torch.__version__}, CUDA: {torch.cuda.is_available()}')"
 ```
-2. Set-up using `conda`:
+### Option B: conda
+Set-up using `conda`:
 ```bash
 conda env create -f env.yml
 conda activate torch12
