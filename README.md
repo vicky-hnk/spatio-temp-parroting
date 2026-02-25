@@ -24,17 +24,15 @@ An extended version can be found on arXiv:
 > https://arxiv.org/abs/2602.10956.
 ---
 
-
 ## Contents
 
 - [Overview](#overview)
 - [Quickstart](#quickstart)
 - [Installation](#installation)
   - [Option A: uv (recommended)](#option-a-uv-recommended)
-  - [Option B: conda](#option-c-conda)
-- [Paper Results](#reproducing-paper-results)
-- [Citation](#citation)
-
+  - [Option B: conda](#option-b-conda)
+- [Paper Results](#paper-results)
+- [Citation](#citations)
 ---
 
 ## Overview
