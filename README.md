@@ -18,7 +18,7 @@ methods, and experimentally demonstrate their effectiveness.
 
 
 This repository accompanies the publication at *ESANN 2026*:
-> Citation will be added after the conference took place.
+> https://doi.org/10.14428/esann/2026.ES2026-150
 
 An extended version can be found on arXiv:
 > https://arxiv.org/abs/2602.10956.
